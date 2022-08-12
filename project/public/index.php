@@ -13,7 +13,7 @@ $router->add('/', static function () {
 
 // Задача: Написать функцию поиска второго по встречаемости символа в строке
 $router->add('/issue1', static function() {
-    $query = $_GET['query'];
+    $query = $_GET['query'] ?? '';
     // обработку ошибок опущу, так как к заданию не относится, но в целом здесь стоит провести валидацию
     $collection = [];
     $queryLen = mb_strlen($query);
@@ -32,7 +32,7 @@ $router->add('/issue1', static function() {
 
 // Написать функцию определяющую является ли строка палиндромом
 $router->add('/issue2', static function() {
-    $word = $_GET['word'];
+    $word = $_GET['word'] ?? '';
 
     $rev = static function ($str){
         $revert = '';

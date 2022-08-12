@@ -6,11 +6,11 @@
 2. Поднять окружение `docker-compose up -d`
 
 ### Задание 1
-`/issue1?query=<string>`
+`localhost:8080/issue1?query=<string>`
 
 Где **string** проверочная последовательность
 
 ### Задание 2
-`/issue1?word=<word>`
+`localhost:8080/issue1?word=<word>`
 
 Где **word** проверочное слово

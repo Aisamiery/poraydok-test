@@ -11,6 +11,6 @@
 Где **string** проверочная последовательность
 
 ### Задание 2
-`localhost:8080/issue1?word=<word>`
+`localhost:8080/issue2?word=<word>`
 
 Где **word** проверочное слово
